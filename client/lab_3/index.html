@@ -22,11 +22,15 @@
       </div>
       <div class="right_section box">
         <h2>Image Carousel</h2>
-          <div class="grid">
-            <img src="images/cat.jpg" alt="felis catus">
-            <img src="images/dog.jpg" alt="canis lupus familiaris">
-            <img src="images/penguin.jpg" alt="aptenodytes forsteri">
-            <img src="images/shark.jpg" alt="carcharodon carcharias">
+          <div class="carousel">
+            <button class="prev">prev</button>
+              <div class="slides">
+                <div class="carousel_item visible"><img id="slide_1" src="images/cat.jpg" alt="felis catus"></div>
+                <div class="carousel_item hidden"><img id="slide_2" src="images/dog.jpg" alt="canis lupus familiaris"></div>
+                <div class="carousel_item hidden"><img id="slide_3" src="images/penguin.jpg" alt="aptenodytes forsteri"></div>
+                <div class="carousel_item hidden"><img id="slide_4" src="images/shark.jpg" alt="carcharodon carcharias"></div>
+              </div>
+            <button class="next">next</button>
           </div>
           <div class="box">
             <p>Some of my favorite animals.</p>
@@ -37,7 +41,7 @@
   <div>
     <footer class="footer"><p>Github Account - <a href="http://www.github.com/krahman7777" target="_blank" rel="noopener noreferer"> krahman7777</a></p></footer>
   </div>
-  
+  <script src="script.js"></script>
 </body>
 </html>
 
