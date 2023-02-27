@@ -128,6 +128,8 @@ form {
   flex: 0 1 auto;
   margin: 1rem;
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .right_section {
@@ -308,11 +310,11 @@ form input {
     }
 
     .right_section {
-      flex: 1 1 auto;
+      flex: auto;
     }
 
     .left_section {
-      flex: 1 1 auto;
+      flex: auto;
     }
     
     .box {
